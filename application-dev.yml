@@ -1,1 +1,10 @@
-yml
+spring:
+  profiles:
+    active: dev
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/sme?useSSL=false&serverTimezone=GMT%2B8&useSSL=false
+      username: root
+      password: root
+      driverClassName: com.mysql.cj.jdbc.Driver
+      dbType: com.alibaba.druid.pool.DruidDataSource
