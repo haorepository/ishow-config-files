@@ -1,0 +1,9 @@
+server:
+  port: 8555
+  servlet:
+    context-path: /ishow-user-provider
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ishow-user-provider
