@@ -9,7 +9,7 @@ spring:
     name: ishow-user-provider
 mybatis-plus:
   mapper-locations:
-    - classpath:/mapper/*.xml
+    - classpath:/mapper/*.xml,com/java/wisdom/group/ishow/icore/mapping/*.xml
     #实体扫描，多个package用逗号或者分号分隔
   type-aliases-package: com.java.wisdom.group.ishow.ientity.entity
   global-config:
