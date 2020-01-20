@@ -3,7 +3,7 @@ server:
   #servlet:
     #context-path: /ishow-user-consumer
 spring:
-  profiles:
-    active: dev
+  #profiles:
+    #active: dev
   application:
     name: ishow-user-consumer
