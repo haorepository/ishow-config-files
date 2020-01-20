@@ -7,3 +7,6 @@ spring:
     #active: dev
   application:
     name: ishow-user-consumer
+info:
+  app:
+    name: ishow-user-consumer
