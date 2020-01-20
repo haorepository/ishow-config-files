@@ -7,3 +7,6 @@ spring:
     active: dev
   application:
     name: ishow-user-provider
+info:
+  app:
+    name: ishow-user-provider
